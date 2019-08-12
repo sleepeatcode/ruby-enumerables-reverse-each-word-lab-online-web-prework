@@ -5,4 +5,10 @@
 #   index +=1
 #   end
 #   puts reverse
-# end 
+# end
+
+def reverse_each_word(sentence)
+  reversed = (sentence.split.map do |word|
+    word.reverse
+  end).join(' ')
+end
