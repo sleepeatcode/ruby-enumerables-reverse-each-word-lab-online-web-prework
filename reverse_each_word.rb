@@ -5,10 +5,4 @@
 #   index +=1
 #   end
 #   puts reverse
-# end
-
-def reverse_each_word(sentence)
-  reversed = (sentence.collect.map do |word|
-    word.reverse
-  end).join(' ')
-end
+# end 
